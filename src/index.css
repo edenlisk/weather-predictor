@@ -1,3 +1,70 @@
+.detail-bg {
+  background: #23506a;
+  height: 18rem;
+}
+
+.detail-top {
+  background: #4369b2;
+  height: 5rem;
+}
+
+.list-group-item {
+  font-size: 20px;
+}
+
+.list-group-item:nth-child(even) {
+  background: #4369b2;
+}
+
+.list-group-item:nth-child(odd) {
+  background: #7ba0e7;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "Gill Sans MT", sans-serif;
+}
+
+.homepage-top {
+  background: #4369b2;
+}
+
+.homepage-top-left {
+  /*height: 20rem;*/
+  background-image: url(./assets/rain.png);
+  background-size: 30% 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.overlay {
+  background: rgba(67, 105, 178, 0.9);
+  height: 10rem;
+}
+
+.overlay-right {
+  background: rgba(58, 100, 179, 0.9);
+  height: 10rem;
+}
+
+.homepage-nav {
+  background: #7ba0e7;
+}
+
+.stats {
+  background: #2f4d87;
+}
+
+.search-field {
+  outline: none;
+}
+
+.city {
+  background-image: url(./assets/rain.png);
+  background-size: 20% 30%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card:nth-child(odd) {
+  background: rgba(67, 105, 178, 0.9);
 }
